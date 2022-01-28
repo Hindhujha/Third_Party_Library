@@ -6,6 +6,9 @@ namespace Third_Party_Library
         static void Main(string[] args)
         {
             Console.WriteLine("THIRD PARTY LIBRARY PROGRAMS");
+            //read,write from csv file
+            csvHandler.ImplementCSVhandling();
+            Console.WriteLine();
         }
     }
 }
